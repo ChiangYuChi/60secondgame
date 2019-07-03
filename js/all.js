@@ -76,7 +76,7 @@ const game = () => {
         const checkNum = calc();
         if (checkNum % 1 !== 0) return showNumber();
         question.innerHTML = `
-    ${num1}<font> ${operator} </font>${num2}<font> = </font>`;
+      ${num1}<font> ${operator} </font>${num2}<font> = </font>`;
         return undefined;
     };
     // 顯示目前分數
